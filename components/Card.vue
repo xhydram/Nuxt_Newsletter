@@ -73,6 +73,7 @@ export default {
           Swal.fire(email + " subscribed to : " + t);
           this.subscribed_info.email = email;
           this.subscribed_info.newsletter_id = Number(this.news_id);
+          console.log(this.subscribed_info);
 
 
           const url = 'https://newsletters.academlo.com/api/v1/users';
