@@ -77,7 +77,7 @@ export default {
           
           axios.post(url,this.subscribed_info)
             .then(response => {
-              console.log(response.data);
+              console.log("Succesful");
             })
             .catch(error => {
               console.log("Hubo un error en la conexion a la API");

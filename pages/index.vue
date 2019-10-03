@@ -60,7 +60,6 @@ export default {
       axios
         .get(url)
         .then(response => {
-          console.log(response.data);
           this.data = response.data;
         })
         .catch(() => {
