@@ -16,7 +16,6 @@ import Menu from '@@/components/Menu'
 import PiePagina from '@@/components/PiePagina'
 
 export default {
-  
   components: {
     Menu,
     PiePagina
