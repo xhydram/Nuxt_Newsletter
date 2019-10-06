@@ -27,7 +27,7 @@ export default {
 <style scoped>
 .content-styles {
   background: transparent;
-  width: 50%;
+  width: 35%;
   min-height: 100vh;
   margin: 0 auto;
   padding-top: 250px;
